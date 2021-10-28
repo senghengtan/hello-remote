@@ -1,3 +1,5 @@
 import sys
 
-print("1Hello {}!".format(sys.argv[1]))
+name = sys.argv[1]
+
+print("Hello {}!".format(name))
